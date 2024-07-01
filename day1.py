@@ -173,6 +173,128 @@
 
 
 
+# 15. Accept a number from the user and check if it is an Armstrong number or not?
+# Example: 153
+# 1 cube =1
+# 5 cube= 125
+# 3 cube = 27
+# Sum of the cubes is (1+27+125=153)
+
+#ANS:-
+
+# def cube(X):
+#     return X*X*X
+# sum=0
+# num=int(input("Enter a number : -"))
+# str_num=str(num)
+# for i in str_num:
+#     int_num=int(i)
+#     sum+=cube(int_num)
+# print(sum)
+
+# if num == sum:
+#     print("Number enter is aramstrong ")
+# else:
+#     print("Enter number is  not an armstronge")
+
+
+
+# 16. Go on accepting numbers from the user till the user enters 0 and calculate the sum of these numbers.
+# sum=0
+# while True:
+#     num=int(input("Enter numbers :-"))
+#     if num ==0:
+#         break
+#     else:
+#         sum+=num
+# print("Total sum of number you enter is :-",sum)
+
+
+
+
+
+
+
+# # 17. Accept a number from the user and print the next 5 numbers.
+# num=int(input("Enter a number to print next five number of it :-"))
+# for i in range((num+1),num+6):
+#     print(i)
+
+
+
+# 18. Accept a number from the user and print those many numbers after the number.
+# num=int(input("Enter a number :-"))
+# for i in range(1,num+1):
+#     print(num+i)
+
+
+
+
+# 19. Accept a start and end range from the user and print all even number between them. (Give minimum
+# two solutions).
+
+
+# start=int(input("Enter start number :-"))
+# end=int(input("Enter end number :-"))
+
+# 1st solution 
+
+# list=[x for x in range(start,end+1) if x%2==0]
+# print("Sum of even numbers :-",sum(list))
+# print(list)
+
+#2nd solution 
+# sum=0
+# for i in range(start,end+1):
+#     if i%2==0:
+#         sum+=i
+# print(sum)
+
+
+
+
+# 20. Accept start and end range from the user and print all odd numbers between them. (Give minimum two
+# solutions).
+
+# #1st solution 
+# start=int(input("Enter start number :-"))
+# end=int(input("Enter end number :-"))
+# sum1=0
+# for i in range(start+1,end):
+#     if i%2!=0:
+#         sum1+=i
+# print(sum1)   
+
+# #2nd solution 
+# list=[x for x in range(start+1,end) if x%2!=0]
+# print(sum(list))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
